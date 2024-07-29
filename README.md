@@ -18,13 +18,18 @@ This Discord bot is designed for the Cali 420 Rust Discord Community. It fetches
 4. Create a `.env` file and add your environment variables:
    touch .env
 
-   Add the following lines to the `.env` file:
-   BM_API_TOKEN=your_battlemetrics_api_token            # Your BattleMetrics API token
-   DISCORD_BOT_TOKEN=your_discord_bot_token             # Your Discord bot token
-   CHANNEL_ID=your_discord_channel_id                   # The ID of the Discord channel where the bot will post updates
-   ONLINE_MESSAGE_ID=online_message_id                  # The ID of the message for online players (will be created if not provided)
-   OFFLINE_MESSAGE_ID=offline_message_id                # The ID of the message for offline players (will be created if not provided)
-   SERVER_ID=your_server_id                             # Your BattleMetrics server ID
+Add the following lines to the `.env` file:
+BM_API_TOKEN=Your BattleMetrics API token
+
+DISCORD_BOT_TOKEN=Your Discord bot token
+
+CHANNEL_ID=The ID of the Discord channel where the bot will post updates
+
+ONLINE_MESSAGE_ID=The ID of the message for online players (will be created if not provided)
+
+OFFLINE_MESSAGE_ID=The ID of the message for offline players (will be created if not provided)
+
+SERVER_ID=Your BattleMetrics server ID
 
 5. Run the bot:
    python bot.py
