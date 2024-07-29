@@ -19,6 +19,7 @@ This Discord bot is designed for the Cali 420 Rust Discord Community. It fetches
    touch .env
 
 Add the following lines to the `.env` file:
+
 BM_API_TOKEN=Your BattleMetrics API token
 
 DISCORD_BOT_TOKEN=Your Discord bot token
